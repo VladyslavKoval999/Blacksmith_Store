@@ -33,14 +33,13 @@
             this.lbNumber = new System.Windows.Forms.Label();
             this.btnAddProduct = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.rbAllScore = new System.Windows.Forms.RadioButton();
             this.rbComingSoon = new System.Windows.Forms.RadioButton();
             this.rbInScore = new System.Windows.Forms.RadioButton();
             this.tbPriceFrom = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.cbColor = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbSize = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.rbAll = new System.Windows.Forms.RadioButton();
             this.rbSpring = new System.Windows.Forms.RadioButton();
@@ -49,43 +48,11 @@
             this.rbSummer = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.tbBrand = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.tbDescription = new System.Windows.Forms.TextBox();
             this.btnPicture = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pbCart = new System.Windows.Forms.PictureBox();
             this.pbMenu = new System.Windows.Forms.PictureBox();
@@ -103,9 +70,45 @@
             this.tsmiNovetly = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTopSellers = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSale = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiReport = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiCart = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.tsmiReport = new System.Windows.Forms.ToolStripMenuItem();
+            this.pbProduct = new System.Windows.Forms.PictureBox();
+            this.rbSize21 = new System.Windows.Forms.RadioButton();
+            this.rbSize22 = new System.Windows.Forms.RadioButton();
+            this.rbSize24 = new System.Windows.Forms.RadioButton();
+            this.rbSize23 = new System.Windows.Forms.RadioButton();
+            this.rbSize28 = new System.Windows.Forms.RadioButton();
+            this.rbSize27 = new System.Windows.Forms.RadioButton();
+            this.rbSize26 = new System.Windows.Forms.RadioButton();
+            this.rbSize25 = new System.Windows.Forms.RadioButton();
+            this.rbSize30 = new System.Windows.Forms.RadioButton();
+            this.rbSize29 = new System.Windows.Forms.RadioButton();
+            this.rbSize40 = new System.Windows.Forms.RadioButton();
+            this.rbSize39 = new System.Windows.Forms.RadioButton();
+            this.rbSize38 = new System.Windows.Forms.RadioButton();
+            this.rbSize37 = new System.Windows.Forms.RadioButton();
+            this.rbSize36 = new System.Windows.Forms.RadioButton();
+            this.rbSize35 = new System.Windows.Forms.RadioButton();
+            this.rbSize34 = new System.Windows.Forms.RadioButton();
+            this.rbSize33 = new System.Windows.Forms.RadioButton();
+            this.rbSize32 = new System.Windows.Forms.RadioButton();
+            this.rbSize31 = new System.Windows.Forms.RadioButton();
+            this.rbSize50 = new System.Windows.Forms.RadioButton();
+            this.rbSize49 = new System.Windows.Forms.RadioButton();
+            this.rbSize48 = new System.Windows.Forms.RadioButton();
+            this.rbSize47 = new System.Windows.Forms.RadioButton();
+            this.rbSize46 = new System.Windows.Forms.RadioButton();
+            this.rbSize45 = new System.Windows.Forms.RadioButton();
+            this.rbSize44 = new System.Windows.Forms.RadioButton();
+            this.rbSize43 = new System.Windows.Forms.RadioButton();
+            this.rbSize42 = new System.Windows.Forms.RadioButton();
+            this.rbSize41 = new System.Windows.Forms.RadioButton();
+            this.panelSize = new System.Windows.Forms.Panel();
+            this.panelSeason = new System.Windows.Forms.Panel();
+            this.panelAvailability = new System.Windows.Forms.Panel();
+            this.cbBrand = new System.Windows.Forms.ComboBox();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.lbName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).BeginInit();
@@ -114,6 +117,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.msMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProduct)).BeginInit();
+            this.panelSize.SuspendLayout();
+            this.panelSeason.SuspendLayout();
+            this.panelAvailability.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbPrice
@@ -124,7 +131,7 @@
             this.lbPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.lbPrice.Location = new System.Drawing.Point(1110, 53);
             this.lbPrice.Name = "lbPrice";
-            this.lbPrice.Size = new System.Drawing.Size(53, 22);
+            this.lbPrice.Size = new System.Drawing.Size(43, 18);
             this.lbPrice.TabIndex = 310;
             this.lbPrice.Text = "0 грн";
             // 
@@ -136,7 +143,7 @@
             this.lbNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.lbNumber.Location = new System.Drawing.Point(985, 53);
             this.lbNumber.Name = "lbNumber";
-            this.lbNumber.Size = new System.Drawing.Size(48, 22);
+            this.lbNumber.Size = new System.Drawing.Size(41, 18);
             this.lbNumber.TabIndex = 309;
             this.lbNumber.Text = "0 шт";
             // 
@@ -161,23 +168,9 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label9.Location = new System.Drawing.Point(984, 520);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(151, 28);
+            this.label9.Size = new System.Drawing.Size(103, 23);
             this.label9.TabIndex = 339;
-            this.label9.Text = "8. Наявність:";
-            // 
-            // rbAllScore
-            // 
-            this.rbAllScore.AutoSize = true;
-            this.rbAllScore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.rbAllScore.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbAllScore.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rbAllScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAllScore.Location = new System.Drawing.Point(1253, 558);
-            this.rbAllScore.Name = "rbAllScore";
-            this.rbAllScore.Size = new System.Drawing.Size(58, 25);
-            this.rbAllScore.TabIndex = 338;
-            this.rbAllScore.Text = "Усе";
-            this.rbAllScore.UseVisualStyleBackColor = false;
+            this.label9.Text = "Наявність:";
             // 
             // rbComingSoon
             // 
@@ -186,9 +179,9 @@
             this.rbComingSoon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbComingSoon.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbComingSoon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbComingSoon.Location = new System.Drawing.Point(1118, 558);
+            this.rbComingSoon.Location = new System.Drawing.Point(142, 4);
             this.rbComingSoon.Name = "rbComingSoon";
-            this.rbComingSoon.Size = new System.Drawing.Size(116, 25);
+            this.rbComingSoon.Size = new System.Drawing.Size(101, 21);
             this.rbComingSoon.TabIndex = 337;
             this.rbComingSoon.Text = "Скоро буде";
             this.rbComingSoon.UseVisualStyleBackColor = false;
@@ -200,9 +193,9 @@
             this.rbInScore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbInScore.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbInScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbInScore.Location = new System.Drawing.Point(983, 558);
+            this.rbInScore.Location = new System.Drawing.Point(7, 4);
             this.rbInScore.Name = "rbInScore";
-            this.rbInScore.Size = new System.Drawing.Size(122, 25);
+            this.rbInScore.Size = new System.Drawing.Size(100, 21);
             this.rbInScore.TabIndex = 336;
             this.rbInScore.Text = "В наявності";
             this.rbInScore.UseVisualStyleBackColor = false;
@@ -214,7 +207,7 @@
             this.tbPriceFrom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.tbPriceFrom.Location = new System.Drawing.Point(983, 473);
             this.tbPriceFrom.Name = "tbPriceFrom";
-            this.tbPriceFrom.Size = new System.Drawing.Size(152, 32);
+            this.tbPriceFrom.Size = new System.Drawing.Size(152, 27);
             this.tbPriceFrom.TabIndex = 333;
             this.tbPriceFrom.Text = " ";
             // 
@@ -226,9 +219,9 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label8.Location = new System.Drawing.Point(984, 442);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(139, 28);
+            this.label8.Size = new System.Drawing.Size(93, 23);
             this.label8.TabIndex = 331;
-            this.label8.Text = "7. За ціною:";
+            this.label8.Text = "За ціною:";
             // 
             // cbColor
             // 
@@ -238,10 +231,10 @@
             this.cbColor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.cbColor.FormattingEnabled = true;
             this.cbColor.IntegralHeight = false;
-            this.cbColor.ItemHeight = 24;
+            this.cbColor.ItemHeight = 19;
             this.cbColor.Location = new System.Drawing.Point(983, 391);
             this.cbColor.Name = "cbColor";
-            this.cbColor.Size = new System.Drawing.Size(336, 32);
+            this.cbColor.Size = new System.Drawing.Size(336, 27);
             this.cbColor.TabIndex = 330;
             // 
             // label4
@@ -252,21 +245,21 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label4.Location = new System.Drawing.Point(984, 360);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(178, 28);
+            this.label4.Size = new System.Drawing.Size(126, 23);
             this.label4.TabIndex = 329;
-            this.label4.Text = "6. За кольором:";
+            this.label4.Text = "За кольором:";
             // 
-            // label3
+            // lbSize
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.label3.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.label3.Location = new System.Drawing.Point(417, 520);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 28);
-            this.label3.TabIndex = 324;
-            this.label3.Text = "4. За розміром:";
+            this.lbSize.AutoSize = true;
+            this.lbSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.lbSize.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbSize.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.lbSize.Location = new System.Drawing.Point(417, 520);
+            this.lbSize.Name = "lbSize";
+            this.lbSize.Size = new System.Drawing.Size(122, 23);
+            this.lbSize.TabIndex = 324;
+            this.lbSize.Text = "За розміром:";
             // 
             // label2
             // 
@@ -276,9 +269,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label2.Location = new System.Drawing.Point(417, 442);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 28);
+            this.label2.Size = new System.Drawing.Size(118, 23);
             this.label2.TabIndex = 322;
-            this.label2.Text = "3. За брендом:";
+            this.label2.Text = "За брендом:";
             // 
             // rbAll
             // 
@@ -287,9 +280,9 @@
             this.rbAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbAll.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAll.Location = new System.Drawing.Point(708, 398);
+            this.rbAll.Location = new System.Drawing.Point(306, 8);
             this.rbAll.Name = "rbAll";
-            this.rbAll.Size = new System.Drawing.Size(58, 25);
+            this.rbAll.Size = new System.Drawing.Size(48, 21);
             this.rbAll.TabIndex = 321;
             this.rbAll.Text = "Усе";
             this.rbAll.UseVisualStyleBackColor = false;
@@ -301,9 +294,9 @@
             this.rbSpring.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbSpring.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbSpring.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbSpring.Location = new System.Drawing.Point(630, 398);
+            this.rbSpring.Location = new System.Drawing.Point(228, 8);
             this.rbSpring.Name = "rbSpring";
-            this.rbSpring.Size = new System.Drawing.Size(77, 25);
+            this.rbSpring.Size = new System.Drawing.Size(63, 21);
             this.rbSpring.TabIndex = 320;
             this.rbSpring.Text = "Весна";
             this.rbSpring.UseVisualStyleBackColor = false;
@@ -315,9 +308,9 @@
             this.rbWinter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbWinter.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbWinter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbWinter.Location = new System.Drawing.Point(558, 398);
+            this.rbWinter.Location = new System.Drawing.Point(156, 8);
             this.rbWinter.Name = "rbWinter";
-            this.rbWinter.Size = new System.Drawing.Size(70, 25);
+            this.rbWinter.Size = new System.Drawing.Size(57, 21);
             this.rbWinter.TabIndex = 319;
             this.rbWinter.Text = "Зима";
             this.rbWinter.UseVisualStyleBackColor = false;
@@ -329,9 +322,9 @@
             this.rbAutumn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbAutumn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbAutumn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAutumn.Location = new System.Drawing.Point(482, 398);
+            this.rbAutumn.Location = new System.Drawing.Point(80, 8);
             this.rbAutumn.Name = "rbAutumn";
-            this.rbAutumn.Size = new System.Drawing.Size(74, 25);
+            this.rbAutumn.Size = new System.Drawing.Size(60, 21);
             this.rbAutumn.TabIndex = 318;
             this.rbAutumn.Text = "Осінь";
             this.rbAutumn.UseVisualStyleBackColor = false;
@@ -343,9 +336,9 @@
             this.rbSummer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbSummer.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbSummer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbSummer.Location = new System.Drawing.Point(416, 398);
+            this.rbSummer.Location = new System.Drawing.Point(14, 8);
             this.rbSummer.Name = "rbSummer";
-            this.rbSummer.Size = new System.Drawing.Size(64, 25);
+            this.rbSummer.Size = new System.Drawing.Size(53, 21);
             this.rbSummer.TabIndex = 317;
             this.rbSummer.Text = "Літо";
             this.rbSummer.UseVisualStyleBackColor = false;
@@ -358,9 +351,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label1.Location = new System.Drawing.Point(417, 360);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 28);
+            this.label1.Size = new System.Drawing.Size(114, 23);
             this.label1.TabIndex = 316;
-            this.label1.Text = "2. За сезоном:";
+            this.label1.Text = "За сезоном:";
             // 
             // label7
             // 
@@ -370,33 +363,9 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label7.Location = new System.Drawing.Point(417, 283);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(142, 28);
+            this.label7.Size = new System.Drawing.Size(59, 23);
             this.label7.TabIndex = 315;
-            this.label7.Text = "1. За типом:";
-            // 
-            // tbBrand
-            // 
-            this.tbBrand.BackColor = System.Drawing.Color.Black;
-            this.tbBrand.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tbBrand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.tbBrand.Location = new System.Drawing.Point(416, 473);
-            this.tbBrand.Name = "tbBrand";
-            this.tbBrand.Size = new System.Drawing.Size(350, 32);
-            this.tbBrand.TabIndex = 343;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox1.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox1.Location = new System.Drawing.Point(417, 556);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(50, 25);
-            this.checkBox1.TabIndex = 344;
-            this.checkBox1.Text = "21";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.label7.Text = "Кому:";
             // 
             // label5
             // 
@@ -406,425 +375,19 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label5.Location = new System.Drawing.Point(987, 597);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 28);
+            this.label5.Size = new System.Drawing.Size(61, 23);
             this.label5.TabIndex = 345;
-            this.label5.Text = "9. Опис:";
+            this.label5.Text = "Опис:";
             // 
-            // textBox1
+            // tbDescription
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Black;
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.textBox1.Location = new System.Drawing.Point(989, 633);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(350, 32);
-            this.textBox1.TabIndex = 346;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox2.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox2.Location = new System.Drawing.Point(467, 556);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(50, 25);
-            this.checkBox2.TabIndex = 347;
-            this.checkBox2.Text = "22";
-            this.checkBox2.UseVisualStyleBackColor = false;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox3.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox3.Location = new System.Drawing.Point(517, 556);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(50, 25);
-            this.checkBox3.TabIndex = 348;
-            this.checkBox3.Text = "23";
-            this.checkBox3.UseVisualStyleBackColor = false;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox4.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox4.Location = new System.Drawing.Point(567, 556);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(50, 25);
-            this.checkBox4.TabIndex = 349;
-            this.checkBox4.Text = "24";
-            this.checkBox4.UseVisualStyleBackColor = false;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox5.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox5.Location = new System.Drawing.Point(617, 556);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(50, 25);
-            this.checkBox5.TabIndex = 350;
-            this.checkBox5.Text = "25";
-            this.checkBox5.UseVisualStyleBackColor = false;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox6.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox6.Location = new System.Drawing.Point(667, 556);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(50, 25);
-            this.checkBox6.TabIndex = 351;
-            this.checkBox6.Text = "26";
-            this.checkBox6.UseVisualStyleBackColor = false;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox7.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox7.Location = new System.Drawing.Point(717, 556);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(50, 25);
-            this.checkBox7.TabIndex = 352;
-            this.checkBox7.Text = "27";
-            this.checkBox7.UseVisualStyleBackColor = false;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox8.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox8.Location = new System.Drawing.Point(767, 556);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(50, 25);
-            this.checkBox8.TabIndex = 353;
-            this.checkBox8.Text = "28";
-            this.checkBox8.UseVisualStyleBackColor = false;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox9.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox9.Location = new System.Drawing.Point(817, 556);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(50, 25);
-            this.checkBox9.TabIndex = 354;
-            this.checkBox9.Text = "29";
-            this.checkBox9.UseVisualStyleBackColor = false;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox10.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox10.Location = new System.Drawing.Point(817, 581);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(50, 25);
-            this.checkBox10.TabIndex = 363;
-            this.checkBox10.Text = "39";
-            this.checkBox10.UseVisualStyleBackColor = false;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox11.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox11.Location = new System.Drawing.Point(767, 581);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(50, 25);
-            this.checkBox11.TabIndex = 362;
-            this.checkBox11.Text = "38";
-            this.checkBox11.UseVisualStyleBackColor = false;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox12.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox12.Location = new System.Drawing.Point(717, 581);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(50, 25);
-            this.checkBox12.TabIndex = 361;
-            this.checkBox12.Text = "37";
-            this.checkBox12.UseVisualStyleBackColor = false;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox13.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox13.Location = new System.Drawing.Point(667, 581);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(50, 25);
-            this.checkBox13.TabIndex = 360;
-            this.checkBox13.Text = "36";
-            this.checkBox13.UseVisualStyleBackColor = false;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox14.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox14.Location = new System.Drawing.Point(617, 581);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(50, 25);
-            this.checkBox14.TabIndex = 359;
-            this.checkBox14.Text = "35";
-            this.checkBox14.UseVisualStyleBackColor = false;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox15.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox15.Location = new System.Drawing.Point(567, 581);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(50, 25);
-            this.checkBox15.TabIndex = 358;
-            this.checkBox15.Text = "34";
-            this.checkBox15.UseVisualStyleBackColor = false;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox16.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox16.Location = new System.Drawing.Point(517, 581);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(50, 25);
-            this.checkBox16.TabIndex = 357;
-            this.checkBox16.Text = "33";
-            this.checkBox16.UseVisualStyleBackColor = false;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox17.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox17.Location = new System.Drawing.Point(467, 581);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(50, 25);
-            this.checkBox17.TabIndex = 356;
-            this.checkBox17.Text = "32";
-            this.checkBox17.UseVisualStyleBackColor = false;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox18.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox18.Location = new System.Drawing.Point(417, 581);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(50, 25);
-            this.checkBox18.TabIndex = 355;
-            this.checkBox18.Text = "31";
-            this.checkBox18.UseVisualStyleBackColor = false;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox19.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox19.Location = new System.Drawing.Point(817, 606);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(50, 25);
-            this.checkBox19.TabIndex = 372;
-            this.checkBox19.Text = "49";
-            this.checkBox19.UseVisualStyleBackColor = false;
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox20.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox20.Location = new System.Drawing.Point(767, 606);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(50, 25);
-            this.checkBox20.TabIndex = 371;
-            this.checkBox20.Text = "48";
-            this.checkBox20.UseVisualStyleBackColor = false;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox21.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox21.Location = new System.Drawing.Point(717, 606);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(50, 25);
-            this.checkBox21.TabIndex = 370;
-            this.checkBox21.Text = "47";
-            this.checkBox21.UseVisualStyleBackColor = false;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox22.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox22.Location = new System.Drawing.Point(667, 606);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(50, 25);
-            this.checkBox22.TabIndex = 369;
-            this.checkBox22.Text = "46";
-            this.checkBox22.UseVisualStyleBackColor = false;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox23.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox23.Location = new System.Drawing.Point(617, 606);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(50, 25);
-            this.checkBox23.TabIndex = 368;
-            this.checkBox23.Text = "45";
-            this.checkBox23.UseVisualStyleBackColor = false;
-            // 
-            // checkBox24
-            // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox24.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox24.Location = new System.Drawing.Point(567, 606);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(50, 25);
-            this.checkBox24.TabIndex = 367;
-            this.checkBox24.Text = "44";
-            this.checkBox24.UseVisualStyleBackColor = false;
-            // 
-            // checkBox25
-            // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox25.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox25.Location = new System.Drawing.Point(517, 606);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(50, 25);
-            this.checkBox25.TabIndex = 366;
-            this.checkBox25.Text = "43";
-            this.checkBox25.UseVisualStyleBackColor = false;
-            // 
-            // checkBox26
-            // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox26.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox26.Location = new System.Drawing.Point(467, 606);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(50, 25);
-            this.checkBox26.TabIndex = 365;
-            this.checkBox26.Text = "42";
-            this.checkBox26.UseVisualStyleBackColor = false;
-            // 
-            // checkBox27
-            // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox27.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox27.Location = new System.Drawing.Point(417, 606);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(50, 25);
-            this.checkBox27.TabIndex = 364;
-            this.checkBox27.Text = "41";
-            this.checkBox27.UseVisualStyleBackColor = false;
-            // 
-            // checkBox28
-            // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox28.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox28.Location = new System.Drawing.Point(867, 556);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(50, 25);
-            this.checkBox28.TabIndex = 373;
-            this.checkBox28.Text = "30";
-            this.checkBox28.UseVisualStyleBackColor = false;
-            // 
-            // checkBox29
-            // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox29.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox29.Location = new System.Drawing.Point(867, 581);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(50, 25);
-            this.checkBox29.TabIndex = 374;
-            this.checkBox29.Text = "40";
-            this.checkBox29.UseVisualStyleBackColor = false;
-            // 
-            // checkBox30
-            // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.checkBox30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox30.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.checkBox30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.checkBox30.Location = new System.Drawing.Point(867, 606);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(50, 25);
-            this.checkBox30.TabIndex = 375;
-            this.checkBox30.Text = "50";
-            this.checkBox30.UseVisualStyleBackColor = false;
+            this.tbDescription.BackColor = System.Drawing.Color.Black;
+            this.tbDescription.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbDescription.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.tbDescription.Location = new System.Drawing.Point(989, 633);
+            this.tbDescription.Name = "tbDescription";
+            this.tbDescription.Size = new System.Drawing.Size(350, 27);
+            this.tbDescription.TabIndex = 346;
             // 
             // btnPicture
             // 
@@ -832,12 +395,13 @@
             this.btnPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPicture.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnPicture.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.btnPicture.Location = new System.Drawing.Point(89, 546);
+            this.btnPicture.Location = new System.Drawing.Point(76, 675);
             this.btnPicture.Name = "btnPicture";
-            this.btnPicture.Size = new System.Drawing.Size(190, 51);
+            this.btnPicture.Size = new System.Drawing.Size(216, 51);
             this.btnPicture.TabIndex = 376;
             this.btnPicture.Text = "Обрати фото";
             this.btnPicture.UseVisualStyleBackColor = false;
+            this.btnPicture.Click += new System.EventHandler(this.btnPicture_Click);
             // 
             // btnAdd
             // 
@@ -845,12 +409,13 @@
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.btnAdd.Location = new System.Drawing.Point(1146, 732);
+            this.btnAdd.Location = new System.Drawing.Point(1130, 765);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(190, 51);
+            this.btnAdd.Size = new System.Drawing.Size(209, 51);
             this.btnAdd.TabIndex = 377;
             this.btnAdd.Text = "Додати товар";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnReset
             // 
@@ -858,23 +423,13 @@
             this.btnReset.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReset.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.btnReset.Location = new System.Drawing.Point(945, 732);
+            this.btnReset.Location = new System.Drawing.Point(910, 765);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(190, 51);
+            this.btnReset.Size = new System.Drawing.Size(209, 51);
             this.btnReset.TabIndex = 378;
             this.btnReset.Text = "Скинути дані";
             this.btnReset.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Black;
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Location = new System.Drawing.Point(89, 278);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(190, 260);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 341;
-            this.pictureBox9.TabStop = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // pictureBox6
             // 
@@ -963,11 +518,12 @@
             this.cbSubtype.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.cbSubtype.FormattingEnabled = true;
             this.cbSubtype.IntegralHeight = false;
-            this.cbSubtype.ItemHeight = 24;
+            this.cbSubtype.ItemHeight = 19;
             this.cbSubtype.Location = new System.Drawing.Point(983, 314);
             this.cbSubtype.Name = "cbSubtype";
-            this.cbSubtype.Size = new System.Drawing.Size(336, 32);
+            this.cbSubtype.Size = new System.Drawing.Size(336, 27);
             this.cbSubtype.TabIndex = 380;
+            this.cbSubtype.TextChanged += new System.EventHandler(this.cbSubtype_TextChanged);
             // 
             // label6
             // 
@@ -977,9 +533,9 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.label6.Location = new System.Drawing.Point(984, 283);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(173, 28);
+            this.label6.Size = new System.Drawing.Size(96, 23);
             this.label6.TabIndex = 379;
-            this.label6.Text = "5. За підтипом:";
+            this.label6.Text = "За типом:";
             // 
             // cbType
             // 
@@ -989,11 +545,12 @@
             this.cbType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
             this.cbType.FormattingEnabled = true;
             this.cbType.IntegralHeight = false;
-            this.cbType.ItemHeight = 24;
+            this.cbType.ItemHeight = 19;
             this.cbType.Location = new System.Drawing.Point(416, 314);
             this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(336, 32);
+            this.cbType.Size = new System.Drawing.Size(336, 27);
             this.cbType.TabIndex = 381;
+            this.cbType.SelectedIndexChanged += new System.EventHandler(this.cbType_SelectedIndexChanged);
             // 
             // msMenu
             // 
@@ -1023,7 +580,7 @@
             this.tsmiMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiMain.Margin = new System.Windows.Forms.Padding(0, 10, 5, 0);
             this.tsmiMain.Name = "tsmiMain";
-            this.tsmiMain.Size = new System.Drawing.Size(145, 35);
+            this.tsmiMain.Size = new System.Drawing.Size(145, 29);
             this.tsmiMain.Text = "Головна";
             this.tsmiMain.Click += new System.EventHandler(this.tsmiMain_Click);
             // 
@@ -1032,7 +589,7 @@
             this.tsmiShoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiShoes.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiShoes.Name = "tsmiShoes";
-            this.tsmiShoes.Size = new System.Drawing.Size(145, 35);
+            this.tsmiShoes.Size = new System.Drawing.Size(145, 29);
             this.tsmiShoes.Text = "Взуття";
             this.tsmiShoes.Click += new System.EventHandler(this.tsmiShoes_Click);
             // 
@@ -1041,7 +598,7 @@
             this.tsmiAccessories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiAccessories.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiAccessories.Name = "tsmiAccessories";
-            this.tsmiAccessories.Size = new System.Drawing.Size(145, 35);
+            this.tsmiAccessories.Size = new System.Drawing.Size(145, 29);
             this.tsmiAccessories.Text = "Аксесуари";
             this.tsmiAccessories.Click += new System.EventHandler(this.tsmiAccessories_Click);
             // 
@@ -1050,7 +607,7 @@
             this.tsmiNovetly.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiNovetly.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiNovetly.Name = "tsmiNovetly";
-            this.tsmiNovetly.Size = new System.Drawing.Size(145, 35);
+            this.tsmiNovetly.Size = new System.Drawing.Size(145, 29);
             this.tsmiNovetly.Text = "Новинки";
             this.tsmiNovetly.Click += new System.EventHandler(this.tsmiNovetly_Click);
             // 
@@ -1059,7 +616,7 @@
             this.tsmiTopSellers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiTopSellers.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiTopSellers.Name = "tsmiTopSellers";
-            this.tsmiTopSellers.Size = new System.Drawing.Size(145, 35);
+            this.tsmiTopSellers.Size = new System.Drawing.Size(145, 29);
             this.tsmiTopSellers.Text = "Топ";
             this.tsmiTopSellers.Click += new System.EventHandler(this.tsmiTopSellers_Click);
             // 
@@ -1068,27 +625,557 @@
             this.tsmiSale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiSale.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiSale.Name = "tsmiSale";
-            this.tsmiSale.Size = new System.Drawing.Size(145, 35);
+            this.tsmiSale.Size = new System.Drawing.Size(145, 29);
             this.tsmiSale.Text = "Знижки";
             this.tsmiSale.Click += new System.EventHandler(this.tsmiSale_Click);
-            // 
-            // tsmiReport
-            // 
-            this.tsmiReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.tsmiReport.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
-            this.tsmiReport.Name = "tsmiReport";
-            this.tsmiReport.Size = new System.Drawing.Size(145, 35);
-            this.tsmiReport.Text = "Звіт";
-            this.tsmiReport.Click += new System.EventHandler(this.tsmiReport_Click);
             // 
             // tsmiCart
             // 
             this.tsmiCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.tsmiCart.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
             this.tsmiCart.Name = "tsmiCart";
-            this.tsmiCart.Size = new System.Drawing.Size(145, 35);
+            this.tsmiCart.Size = new System.Drawing.Size(145, 29);
             this.tsmiCart.Text = "Кошик";
             this.tsmiCart.Click += new System.EventHandler(this.tsmiCart_Click);
+            // 
+            // tsmiReport
+            // 
+            this.tsmiReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.tsmiReport.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
+            this.tsmiReport.Name = "tsmiReport";
+            this.tsmiReport.Size = new System.Drawing.Size(145, 29);
+            this.tsmiReport.Text = "Звіт";
+            this.tsmiReport.Click += new System.EventHandler(this.tsmiReport_Click);
+            // 
+            // pbProduct
+            // 
+            this.pbProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.pbProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbProduct.Image = ((System.Drawing.Image)(resources.GetObject("pbProduct.Image")));
+            this.pbProduct.Location = new System.Drawing.Point(42, 283);
+            this.pbProduct.Name = "pbProduct";
+            this.pbProduct.Size = new System.Drawing.Size(285, 380);
+            this.pbProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbProduct.TabIndex = 383;
+            this.pbProduct.TabStop = false;
+            // 
+            // rbSize21
+            // 
+            this.rbSize21.AutoSize = true;
+            this.rbSize21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize21.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize21.Location = new System.Drawing.Point(9, 11);
+            this.rbSize21.Name = "rbSize21";
+            this.rbSize21.Size = new System.Drawing.Size(42, 21);
+            this.rbSize21.TabIndex = 384;
+            this.rbSize21.TabStop = true;
+            this.rbSize21.Text = "21";
+            this.rbSize21.UseVisualStyleBackColor = false;
+            // 
+            // rbSize22
+            // 
+            this.rbSize22.AutoSize = true;
+            this.rbSize22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize22.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize22.Location = new System.Drawing.Point(60, 11);
+            this.rbSize22.Name = "rbSize22";
+            this.rbSize22.Size = new System.Drawing.Size(42, 21);
+            this.rbSize22.TabIndex = 385;
+            this.rbSize22.TabStop = true;
+            this.rbSize22.Text = "22";
+            this.rbSize22.UseVisualStyleBackColor = false;
+            // 
+            // rbSize24
+            // 
+            this.rbSize24.AutoSize = true;
+            this.rbSize24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize24.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize24.Location = new System.Drawing.Point(160, 11);
+            this.rbSize24.Name = "rbSize24";
+            this.rbSize24.Size = new System.Drawing.Size(42, 21);
+            this.rbSize24.TabIndex = 387;
+            this.rbSize24.TabStop = true;
+            this.rbSize24.Text = "24";
+            this.rbSize24.UseVisualStyleBackColor = false;
+            // 
+            // rbSize23
+            // 
+            this.rbSize23.AutoSize = true;
+            this.rbSize23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize23.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize23.Location = new System.Drawing.Point(111, 11);
+            this.rbSize23.Name = "rbSize23";
+            this.rbSize23.Size = new System.Drawing.Size(42, 21);
+            this.rbSize23.TabIndex = 386;
+            this.rbSize23.TabStop = true;
+            this.rbSize23.Text = "23";
+            this.rbSize23.UseVisualStyleBackColor = false;
+            // 
+            // rbSize28
+            // 
+            this.rbSize28.AutoSize = true;
+            this.rbSize28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize28.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize28.Location = new System.Drawing.Point(361, 11);
+            this.rbSize28.Name = "rbSize28";
+            this.rbSize28.Size = new System.Drawing.Size(42, 21);
+            this.rbSize28.TabIndex = 391;
+            this.rbSize28.TabStop = true;
+            this.rbSize28.Text = "28";
+            this.rbSize28.UseVisualStyleBackColor = false;
+            // 
+            // rbSize27
+            // 
+            this.rbSize27.AutoSize = true;
+            this.rbSize27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize27.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize27.Location = new System.Drawing.Point(312, 11);
+            this.rbSize27.Name = "rbSize27";
+            this.rbSize27.Size = new System.Drawing.Size(42, 21);
+            this.rbSize27.TabIndex = 390;
+            this.rbSize27.TabStop = true;
+            this.rbSize27.Text = "27";
+            this.rbSize27.UseVisualStyleBackColor = false;
+            // 
+            // rbSize26
+            // 
+            this.rbSize26.AutoSize = true;
+            this.rbSize26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize26.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize26.Location = new System.Drawing.Point(261, 11);
+            this.rbSize26.Name = "rbSize26";
+            this.rbSize26.Size = new System.Drawing.Size(42, 21);
+            this.rbSize26.TabIndex = 389;
+            this.rbSize26.TabStop = true;
+            this.rbSize26.Text = "26";
+            this.rbSize26.UseVisualStyleBackColor = false;
+            // 
+            // rbSize25
+            // 
+            this.rbSize25.AutoSize = true;
+            this.rbSize25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize25.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize25.Location = new System.Drawing.Point(210, 11);
+            this.rbSize25.Name = "rbSize25";
+            this.rbSize25.Size = new System.Drawing.Size(42, 21);
+            this.rbSize25.TabIndex = 388;
+            this.rbSize25.TabStop = true;
+            this.rbSize25.Text = "25";
+            this.rbSize25.UseVisualStyleBackColor = false;
+            // 
+            // rbSize30
+            // 
+            this.rbSize30.AutoSize = true;
+            this.rbSize30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize30.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize30.Location = new System.Drawing.Point(461, 11);
+            this.rbSize30.Name = "rbSize30";
+            this.rbSize30.Size = new System.Drawing.Size(42, 21);
+            this.rbSize30.TabIndex = 393;
+            this.rbSize30.TabStop = true;
+            this.rbSize30.Text = "30";
+            this.rbSize30.UseVisualStyleBackColor = false;
+            // 
+            // rbSize29
+            // 
+            this.rbSize29.AutoSize = true;
+            this.rbSize29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize29.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize29.Location = new System.Drawing.Point(410, 11);
+            this.rbSize29.Name = "rbSize29";
+            this.rbSize29.Size = new System.Drawing.Size(42, 21);
+            this.rbSize29.TabIndex = 392;
+            this.rbSize29.TabStop = true;
+            this.rbSize29.Text = "29";
+            this.rbSize29.UseVisualStyleBackColor = false;
+            // 
+            // rbSize40
+            // 
+            this.rbSize40.AutoSize = true;
+            this.rbSize40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize40.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize40.Location = new System.Drawing.Point(461, 42);
+            this.rbSize40.Name = "rbSize40";
+            this.rbSize40.Size = new System.Drawing.Size(42, 21);
+            this.rbSize40.TabIndex = 403;
+            this.rbSize40.TabStop = true;
+            this.rbSize40.Text = "40";
+            this.rbSize40.UseVisualStyleBackColor = false;
+            // 
+            // rbSize39
+            // 
+            this.rbSize39.AutoSize = true;
+            this.rbSize39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize39.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize39.Location = new System.Drawing.Point(410, 42);
+            this.rbSize39.Name = "rbSize39";
+            this.rbSize39.Size = new System.Drawing.Size(42, 21);
+            this.rbSize39.TabIndex = 402;
+            this.rbSize39.TabStop = true;
+            this.rbSize39.Text = "39";
+            this.rbSize39.UseVisualStyleBackColor = false;
+            // 
+            // rbSize38
+            // 
+            this.rbSize38.AutoSize = true;
+            this.rbSize38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize38.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize38.Location = new System.Drawing.Point(361, 42);
+            this.rbSize38.Name = "rbSize38";
+            this.rbSize38.Size = new System.Drawing.Size(42, 21);
+            this.rbSize38.TabIndex = 401;
+            this.rbSize38.TabStop = true;
+            this.rbSize38.Text = "38";
+            this.rbSize38.UseVisualStyleBackColor = false;
+            // 
+            // rbSize37
+            // 
+            this.rbSize37.AutoSize = true;
+            this.rbSize37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize37.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize37.Location = new System.Drawing.Point(312, 42);
+            this.rbSize37.Name = "rbSize37";
+            this.rbSize37.Size = new System.Drawing.Size(42, 21);
+            this.rbSize37.TabIndex = 400;
+            this.rbSize37.TabStop = true;
+            this.rbSize37.Text = "37";
+            this.rbSize37.UseVisualStyleBackColor = false;
+            // 
+            // rbSize36
+            // 
+            this.rbSize36.AutoSize = true;
+            this.rbSize36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize36.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize36.Location = new System.Drawing.Point(261, 42);
+            this.rbSize36.Name = "rbSize36";
+            this.rbSize36.Size = new System.Drawing.Size(42, 21);
+            this.rbSize36.TabIndex = 399;
+            this.rbSize36.TabStop = true;
+            this.rbSize36.Text = "36";
+            this.rbSize36.UseVisualStyleBackColor = false;
+            // 
+            // rbSize35
+            // 
+            this.rbSize35.AutoSize = true;
+            this.rbSize35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize35.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize35.Location = new System.Drawing.Point(210, 42);
+            this.rbSize35.Name = "rbSize35";
+            this.rbSize35.Size = new System.Drawing.Size(42, 21);
+            this.rbSize35.TabIndex = 398;
+            this.rbSize35.TabStop = true;
+            this.rbSize35.Text = "35";
+            this.rbSize35.UseVisualStyleBackColor = false;
+            // 
+            // rbSize34
+            // 
+            this.rbSize34.AutoSize = true;
+            this.rbSize34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize34.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize34.Location = new System.Drawing.Point(160, 42);
+            this.rbSize34.Name = "rbSize34";
+            this.rbSize34.Size = new System.Drawing.Size(42, 21);
+            this.rbSize34.TabIndex = 397;
+            this.rbSize34.TabStop = true;
+            this.rbSize34.Text = "34";
+            this.rbSize34.UseVisualStyleBackColor = false;
+            // 
+            // rbSize33
+            // 
+            this.rbSize33.AutoSize = true;
+            this.rbSize33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize33.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize33.Location = new System.Drawing.Point(111, 42);
+            this.rbSize33.Name = "rbSize33";
+            this.rbSize33.Size = new System.Drawing.Size(42, 21);
+            this.rbSize33.TabIndex = 396;
+            this.rbSize33.TabStop = true;
+            this.rbSize33.Text = "33";
+            this.rbSize33.UseVisualStyleBackColor = false;
+            // 
+            // rbSize32
+            // 
+            this.rbSize32.AutoSize = true;
+            this.rbSize32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize32.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize32.Location = new System.Drawing.Point(60, 42);
+            this.rbSize32.Name = "rbSize32";
+            this.rbSize32.Size = new System.Drawing.Size(42, 21);
+            this.rbSize32.TabIndex = 395;
+            this.rbSize32.TabStop = true;
+            this.rbSize32.Text = "32";
+            this.rbSize32.UseVisualStyleBackColor = false;
+            // 
+            // rbSize31
+            // 
+            this.rbSize31.AutoSize = true;
+            this.rbSize31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize31.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize31.Location = new System.Drawing.Point(9, 42);
+            this.rbSize31.Name = "rbSize31";
+            this.rbSize31.Size = new System.Drawing.Size(42, 21);
+            this.rbSize31.TabIndex = 394;
+            this.rbSize31.TabStop = true;
+            this.rbSize31.Text = "31";
+            this.rbSize31.UseVisualStyleBackColor = false;
+            // 
+            // rbSize50
+            // 
+            this.rbSize50.AutoSize = true;
+            this.rbSize50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize50.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize50.Location = new System.Drawing.Point(461, 73);
+            this.rbSize50.Name = "rbSize50";
+            this.rbSize50.Size = new System.Drawing.Size(42, 21);
+            this.rbSize50.TabIndex = 413;
+            this.rbSize50.TabStop = true;
+            this.rbSize50.Text = "50";
+            this.rbSize50.UseVisualStyleBackColor = false;
+            // 
+            // rbSize49
+            // 
+            this.rbSize49.AutoSize = true;
+            this.rbSize49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize49.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize49.Location = new System.Drawing.Point(410, 73);
+            this.rbSize49.Name = "rbSize49";
+            this.rbSize49.Size = new System.Drawing.Size(42, 21);
+            this.rbSize49.TabIndex = 412;
+            this.rbSize49.TabStop = true;
+            this.rbSize49.Text = "49";
+            this.rbSize49.UseVisualStyleBackColor = false;
+            // 
+            // rbSize48
+            // 
+            this.rbSize48.AutoSize = true;
+            this.rbSize48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize48.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize48.Location = new System.Drawing.Point(361, 73);
+            this.rbSize48.Name = "rbSize48";
+            this.rbSize48.Size = new System.Drawing.Size(42, 21);
+            this.rbSize48.TabIndex = 411;
+            this.rbSize48.TabStop = true;
+            this.rbSize48.Text = "48";
+            this.rbSize48.UseVisualStyleBackColor = false;
+            // 
+            // rbSize47
+            // 
+            this.rbSize47.AutoSize = true;
+            this.rbSize47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize47.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize47.Location = new System.Drawing.Point(312, 73);
+            this.rbSize47.Name = "rbSize47";
+            this.rbSize47.Size = new System.Drawing.Size(42, 21);
+            this.rbSize47.TabIndex = 410;
+            this.rbSize47.TabStop = true;
+            this.rbSize47.Text = "47";
+            this.rbSize47.UseVisualStyleBackColor = false;
+            // 
+            // rbSize46
+            // 
+            this.rbSize46.AutoSize = true;
+            this.rbSize46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize46.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize46.Location = new System.Drawing.Point(261, 73);
+            this.rbSize46.Name = "rbSize46";
+            this.rbSize46.Size = new System.Drawing.Size(42, 21);
+            this.rbSize46.TabIndex = 409;
+            this.rbSize46.TabStop = true;
+            this.rbSize46.Text = "46";
+            this.rbSize46.UseVisualStyleBackColor = false;
+            // 
+            // rbSize45
+            // 
+            this.rbSize45.AutoSize = true;
+            this.rbSize45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize45.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize45.Location = new System.Drawing.Point(210, 73);
+            this.rbSize45.Name = "rbSize45";
+            this.rbSize45.Size = new System.Drawing.Size(42, 21);
+            this.rbSize45.TabIndex = 408;
+            this.rbSize45.TabStop = true;
+            this.rbSize45.Text = "45";
+            this.rbSize45.UseVisualStyleBackColor = false;
+            // 
+            // rbSize44
+            // 
+            this.rbSize44.AutoSize = true;
+            this.rbSize44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize44.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize44.Location = new System.Drawing.Point(160, 73);
+            this.rbSize44.Name = "rbSize44";
+            this.rbSize44.Size = new System.Drawing.Size(42, 21);
+            this.rbSize44.TabIndex = 407;
+            this.rbSize44.TabStop = true;
+            this.rbSize44.Text = "44";
+            this.rbSize44.UseVisualStyleBackColor = false;
+            // 
+            // rbSize43
+            // 
+            this.rbSize43.AutoSize = true;
+            this.rbSize43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize43.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize43.Location = new System.Drawing.Point(111, 73);
+            this.rbSize43.Name = "rbSize43";
+            this.rbSize43.Size = new System.Drawing.Size(42, 21);
+            this.rbSize43.TabIndex = 406;
+            this.rbSize43.TabStop = true;
+            this.rbSize43.Text = "43";
+            this.rbSize43.UseVisualStyleBackColor = false;
+            // 
+            // rbSize42
+            // 
+            this.rbSize42.AutoSize = true;
+            this.rbSize42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize42.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize42.Location = new System.Drawing.Point(60, 73);
+            this.rbSize42.Name = "rbSize42";
+            this.rbSize42.Size = new System.Drawing.Size(42, 21);
+            this.rbSize42.TabIndex = 405;
+            this.rbSize42.TabStop = true;
+            this.rbSize42.Text = "42";
+            this.rbSize42.UseVisualStyleBackColor = false;
+            // 
+            // rbSize41
+            // 
+            this.rbSize41.AutoSize = true;
+            this.rbSize41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.rbSize41.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.rbSize41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.rbSize41.Location = new System.Drawing.Point(9, 73);
+            this.rbSize41.Name = "rbSize41";
+            this.rbSize41.Size = new System.Drawing.Size(42, 21);
+            this.rbSize41.TabIndex = 404;
+            this.rbSize41.TabStop = true;
+            this.rbSize41.Text = "41";
+            this.rbSize41.UseVisualStyleBackColor = false;
+            // 
+            // panelSize
+            // 
+            this.panelSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.panelSize.Controls.Add(this.rbSize50);
+            this.panelSize.Controls.Add(this.rbSize49);
+            this.panelSize.Controls.Add(this.rbSize48);
+            this.panelSize.Controls.Add(this.rbSize47);
+            this.panelSize.Controls.Add(this.rbSize46);
+            this.panelSize.Controls.Add(this.rbSize45);
+            this.panelSize.Controls.Add(this.rbSize44);
+            this.panelSize.Controls.Add(this.rbSize43);
+            this.panelSize.Controls.Add(this.rbSize42);
+            this.panelSize.Controls.Add(this.rbSize41);
+            this.panelSize.Controls.Add(this.rbSize40);
+            this.panelSize.Controls.Add(this.rbSize39);
+            this.panelSize.Controls.Add(this.rbSize38);
+            this.panelSize.Controls.Add(this.rbSize37);
+            this.panelSize.Controls.Add(this.rbSize36);
+            this.panelSize.Controls.Add(this.rbSize35);
+            this.panelSize.Controls.Add(this.rbSize34);
+            this.panelSize.Controls.Add(this.rbSize33);
+            this.panelSize.Controls.Add(this.rbSize32);
+            this.panelSize.Controls.Add(this.rbSize31);
+            this.panelSize.Controls.Add(this.rbSize30);
+            this.panelSize.Controls.Add(this.rbSize29);
+            this.panelSize.Controls.Add(this.rbSize28);
+            this.panelSize.Controls.Add(this.rbSize27);
+            this.panelSize.Controls.Add(this.rbSize26);
+            this.panelSize.Controls.Add(this.rbSize25);
+            this.panelSize.Controls.Add(this.rbSize24);
+            this.panelSize.Controls.Add(this.rbSize23);
+            this.panelSize.Controls.Add(this.rbSize22);
+            this.panelSize.Controls.Add(this.rbSize21);
+            this.panelSize.Location = new System.Drawing.Point(408, 545);
+            this.panelSize.Name = "panelSize";
+            this.panelSize.Size = new System.Drawing.Size(517, 117);
+            this.panelSize.TabIndex = 414;
+            // 
+            // panelSeason
+            // 
+            this.panelSeason.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.panelSeason.Controls.Add(this.rbAll);
+            this.panelSeason.Controls.Add(this.rbSpring);
+            this.panelSeason.Controls.Add(this.rbWinter);
+            this.panelSeason.Controls.Add(this.rbAutumn);
+            this.panelSeason.Controls.Add(this.rbSummer);
+            this.panelSeason.Location = new System.Drawing.Point(402, 390);
+            this.panelSeason.Name = "panelSeason";
+            this.panelSeason.Size = new System.Drawing.Size(367, 41);
+            this.panelSeason.TabIndex = 415;
+            // 
+            // panelAvailability
+            // 
+            this.panelAvailability.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.panelAvailability.Controls.Add(this.rbComingSoon);
+            this.panelAvailability.Controls.Add(this.rbInScore);
+            this.panelAvailability.Location = new System.Drawing.Point(976, 554);
+            this.panelAvailability.Name = "panelAvailability";
+            this.panelAvailability.Size = new System.Drawing.Size(342, 43);
+            this.panelAvailability.TabIndex = 416;
+            // 
+            // cbBrand
+            // 
+            this.cbBrand.BackColor = System.Drawing.Color.Black;
+            this.cbBrand.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbBrand.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbBrand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.cbBrand.FormattingEnabled = true;
+            this.cbBrand.IntegralHeight = false;
+            this.cbBrand.ItemHeight = 19;
+            this.cbBrand.Location = new System.Drawing.Point(416, 473);
+            this.cbBrand.Name = "cbBrand";
+            this.cbBrand.Size = new System.Drawing.Size(350, 27);
+            this.cbBrand.TabIndex = 417;
+            // 
+            // tbName
+            // 
+            this.tbName.BackColor = System.Drawing.Color.Black;
+            this.tbName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.tbName.Location = new System.Drawing.Point(42, 784);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(290, 27);
+            this.tbName.TabIndex = 419;
+            this.tbName.Text = " ";
+            // 
+            // lbName
+            // 
+            this.lbName.AutoSize = true;
+            this.lbName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.lbName.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.lbName.Location = new System.Drawing.Point(146, 743);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(62, 23);
+            this.lbName.TabIndex = 418;
+            this.lbName.Text = "Назва";
             // 
             // FormAddProduct
             // 
@@ -1096,6 +1183,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1582, 903);
+            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.lbName);
+            this.Controls.Add(this.cbBrand);
+            this.Controls.Add(this.panelAvailability);
+            this.Controls.Add(this.panelSeason);
+            this.Controls.Add(this.panelSize);
+            this.Controls.Add(this.pbProduct);
             this.Controls.Add(this.msMenu);
             this.Controls.Add(this.cbType);
             this.Controls.Add(this.cbSubtype);
@@ -1103,55 +1197,15 @@
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnPicture);
-            this.Controls.Add(this.checkBox30);
-            this.Controls.Add(this.checkBox29);
-            this.Controls.Add(this.checkBox28);
-            this.Controls.Add(this.checkBox19);
-            this.Controls.Add(this.checkBox20);
-            this.Controls.Add(this.checkBox21);
-            this.Controls.Add(this.checkBox22);
-            this.Controls.Add(this.checkBox23);
-            this.Controls.Add(this.checkBox24);
-            this.Controls.Add(this.checkBox25);
-            this.Controls.Add(this.checkBox26);
-            this.Controls.Add(this.checkBox27);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox17);
-            this.Controls.Add(this.checkBox18);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbDescription);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.tbBrand);
-            this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.rbAllScore);
-            this.Controls.Add(this.rbComingSoon);
-            this.Controls.Add(this.rbInScore);
             this.Controls.Add(this.tbPriceFrom);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.cbColor);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbSize);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rbAll);
-            this.Controls.Add(this.rbSpring);
-            this.Controls.Add(this.rbWinter);
-            this.Controls.Add(this.rbAutumn);
-            this.Controls.Add(this.rbSummer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnAddProduct);
@@ -1166,9 +1220,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormAddProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormAddProduct";
+            this.Text = "Додати новий товар";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormAddProduct_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).EndInit();
@@ -1178,6 +1231,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.msMenu.ResumeLayout(false);
             this.msMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProduct)).EndInit();
+            this.panelSize.ResumeLayout(false);
+            this.panelSize.PerformLayout();
+            this.panelSeason.ResumeLayout(false);
+            this.panelSeason.PerformLayout();
+            this.panelAvailability.ResumeLayout(false);
+            this.panelAvailability.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1196,14 +1256,13 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button btnAddProduct;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.RadioButton rbAllScore;
         private System.Windows.Forms.RadioButton rbComingSoon;
         private System.Windows.Forms.RadioButton rbInScore;
         private System.Windows.Forms.TextBox tbPriceFrom;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cbColor;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbSize;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton rbAll;
         private System.Windows.Forms.RadioButton rbSpring;
@@ -1212,40 +1271,8 @@
         private System.Windows.Forms.RadioButton rbSummer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.TextBox tbBrand;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.CheckBox checkBox28;
-        private System.Windows.Forms.CheckBox checkBox29;
-        private System.Windows.Forms.CheckBox checkBox30;
+        private System.Windows.Forms.TextBox tbDescription;
         private System.Windows.Forms.Button btnPicture;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnReset;
@@ -1261,5 +1288,42 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiSale;
         private System.Windows.Forms.ToolStripMenuItem tsmiReport;
         private System.Windows.Forms.ToolStripMenuItem tsmiCart;
+        private System.Windows.Forms.PictureBox pbProduct;
+        private System.Windows.Forms.RadioButton rbSize21;
+        private System.Windows.Forms.RadioButton rbSize22;
+        private System.Windows.Forms.RadioButton rbSize24;
+        private System.Windows.Forms.RadioButton rbSize23;
+        private System.Windows.Forms.RadioButton rbSize28;
+        private System.Windows.Forms.RadioButton rbSize27;
+        private System.Windows.Forms.RadioButton rbSize26;
+        private System.Windows.Forms.RadioButton rbSize25;
+        private System.Windows.Forms.RadioButton rbSize30;
+        private System.Windows.Forms.RadioButton rbSize29;
+        private System.Windows.Forms.RadioButton rbSize40;
+        private System.Windows.Forms.RadioButton rbSize39;
+        private System.Windows.Forms.RadioButton rbSize38;
+        private System.Windows.Forms.RadioButton rbSize37;
+        private System.Windows.Forms.RadioButton rbSize36;
+        private System.Windows.Forms.RadioButton rbSize35;
+        private System.Windows.Forms.RadioButton rbSize34;
+        private System.Windows.Forms.RadioButton rbSize33;
+        private System.Windows.Forms.RadioButton rbSize32;
+        private System.Windows.Forms.RadioButton rbSize31;
+        private System.Windows.Forms.RadioButton rbSize50;
+        private System.Windows.Forms.RadioButton rbSize49;
+        private System.Windows.Forms.RadioButton rbSize48;
+        private System.Windows.Forms.RadioButton rbSize47;
+        private System.Windows.Forms.RadioButton rbSize46;
+        private System.Windows.Forms.RadioButton rbSize45;
+        private System.Windows.Forms.RadioButton rbSize44;
+        private System.Windows.Forms.RadioButton rbSize43;
+        private System.Windows.Forms.RadioButton rbSize42;
+        private System.Windows.Forms.RadioButton rbSize41;
+        private System.Windows.Forms.Panel panelSize;
+        private System.Windows.Forms.Panel panelSeason;
+        private System.Windows.Forms.Panel panelAvailability;
+        private System.Windows.Forms.ComboBox cbBrand;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.Label lbName;
     }
 }

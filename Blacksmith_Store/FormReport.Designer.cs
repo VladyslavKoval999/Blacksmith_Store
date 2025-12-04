@@ -32,7 +32,7 @@
             this.dgvReport = new System.Windows.Forms.DataGridView();
             this.btnReport = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.cbCategory = new System.Windows.Forms.ComboBox();
+            this.cbSubtype = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnReportResult = new System.Windows.Forms.Button();
@@ -56,6 +56,8 @@
             this.tsmiSale = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiCart = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAddProduct = new System.Windows.Forms.ToolStripMenuItem();
+            this.lbReportTotalAmount = new System.Windows.Forms.Label();
+            this.lbReportTotalQuantity = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvReport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPrint)).BeginInit();
@@ -73,11 +75,11 @@
             this.dgvReport.BackgroundColor = System.Drawing.Color.Black;
             this.dgvReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvReport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvReport.Location = new System.Drawing.Point(61, 265);
+            this.dgvReport.Location = new System.Drawing.Point(347, 251);
             this.dgvReport.Name = "dgvReport";
             this.dgvReport.RowHeadersWidth = 51;
             this.dgvReport.RowTemplate.Height = 24;
-            this.dgvReport.Size = new System.Drawing.Size(1169, 592);
+            this.dgvReport.Size = new System.Drawing.Size(1169, 561);
             this.dgvReport.TabIndex = 293;
             // 
             // btnReport
@@ -99,20 +101,20 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.label7.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.label7.Location = new System.Drawing.Point(1288, 562);
+            this.label7.Location = new System.Drawing.Point(60, 561);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(205, 28);
+            this.label7.Size = new System.Drawing.Size(115, 28);
             this.label7.TabIndex = 300;
-            this.label7.Text = "Категорія товарів:";
+            this.label7.Text = "За типом:";
             // 
-            // cbCategory
+            // cbSubtype
             // 
-            this.cbCategory.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbCategory.FormattingEnabled = true;
-            this.cbCategory.Location = new System.Drawing.Point(1293, 593);
-            this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(224, 24);
-            this.cbCategory.TabIndex = 299;
+            this.cbSubtype.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbSubtype.FormattingEnabled = true;
+            this.cbSubtype.Location = new System.Drawing.Point(65, 593);
+            this.cbSubtype.Name = "cbSubtype";
+            this.cbSubtype.Size = new System.Drawing.Size(224, 24);
+            this.cbSubtype.TabIndex = 299;
             // 
             // label1
             // 
@@ -120,11 +122,11 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.label1.Location = new System.Drawing.Point(1294, 242);
+            this.label1.Location = new System.Drawing.Point(61, 242);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(191, 84);
             this.label1.TabIndex = 298;
-            this.label1.Text = "Для перегляду\nзалишків за\nвказаний період.";
+            this.label1.Text = "Для перегляду\nпродажів за\nвказаний період.";
             // 
             // btnUpdate
             // 
@@ -132,12 +134,13 @@
             this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.btnUpdate.Location = new System.Drawing.Point(1292, 710);
+            this.btnUpdate.Location = new System.Drawing.Point(64, 710);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(224, 51);
             this.btnUpdate.TabIndex = 297;
             this.btnUpdate.Text = "Оновлення";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnReportResult
             // 
@@ -145,17 +148,18 @@
             this.btnReportResult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReportResult.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnReportResult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.btnReportResult.Location = new System.Drawing.Point(1292, 644);
+            this.btnReportResult.Location = new System.Drawing.Point(64, 644);
             this.btnReportResult.Name = "btnReportResult";
             this.btnReportResult.Size = new System.Drawing.Size(224, 51);
             this.btnReportResult.TabIndex = 296;
             this.btnReportResult.Text = "Результат";
             this.btnReportResult.UseVisualStyleBackColor = false;
+            this.btnReportResult.Click += new System.EventHandler(this.btnReportResult_Click);
             // 
             // monthCalendar1
             // 
             this.monthCalendar1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.monthCalendar1.Location = new System.Drawing.Point(1293, 335);
+            this.monthCalendar1.Location = new System.Drawing.Point(60, 335);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 295;
             // 
@@ -201,7 +205,7 @@
             this.pbPrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.pbPrint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbPrint.Image = ((System.Drawing.Image)(resources.GetObject("pbPrint.Image")));
-            this.pbPrint.Location = new System.Drawing.Point(1360, 778);
+            this.pbPrint.Location = new System.Drawing.Point(132, 778);
             this.pbPrint.Name = "pbPrint";
             this.pbPrint.Size = new System.Drawing.Size(88, 79);
             this.pbPrint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -370,18 +374,44 @@
             this.tsmiAddProduct.Text = "Додати";
             this.tsmiAddProduct.Click += new System.EventHandler(this.tsmiAddProduct_Click);
             // 
+            // lbReportTotalAmount
+            // 
+            this.lbReportTotalAmount.AutoSize = true;
+            this.lbReportTotalAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.lbReportTotalAmount.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbReportTotalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.lbReportTotalAmount.Location = new System.Drawing.Point(347, 829);
+            this.lbReportTotalAmount.Name = "lbReportTotalAmount";
+            this.lbReportTotalAmount.Size = new System.Drawing.Size(172, 28);
+            this.lbReportTotalAmount.TabIndex = 305;
+            this.lbReportTotalAmount.Text = "Загальна сума:";
+            // 
+            // lbReportTotalQuantity
+            // 
+            this.lbReportTotalQuantity.AutoSize = true;
+            this.lbReportTotalQuantity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.lbReportTotalQuantity.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbReportTotalQuantity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.lbReportTotalQuantity.Location = new System.Drawing.Point(826, 829);
+            this.lbReportTotalQuantity.Name = "lbReportTotalQuantity";
+            this.lbReportTotalQuantity.Size = new System.Drawing.Size(207, 28);
+            this.lbReportTotalQuantity.TabIndex = 306;
+            this.lbReportTotalQuantity.Text = "Продано одиниць:";
+            // 
             // FormReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1582, 903);
+            this.Controls.Add(this.lbReportTotalQuantity);
+            this.Controls.Add(this.lbReportTotalAmount);
             this.Controls.Add(this.msMenu);
             this.Controls.Add(this.pbCart);
             this.Controls.Add(this.lbPrice);
             this.Controls.Add(this.lbNumber);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbCategory);
+            this.Controls.Add(this.cbSubtype);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnReportResult);
@@ -397,7 +427,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormReport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormReport";
+            this.Text = "Звітність про продажі";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormReport_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvReport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
@@ -425,7 +455,7 @@
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox cbCategory;
+        private System.Windows.Forms.ComboBox cbSubtype;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnReportResult;
@@ -443,5 +473,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiSale;
         private System.Windows.Forms.ToolStripMenuItem tsmiCart;
         private System.Windows.Forms.ToolStripMenuItem tsmiAddProduct;
+        private System.Windows.Forms.Label lbReportTotalAmount;
+        private System.Windows.Forms.Label lbReportTotalQuantity;
     }
 }

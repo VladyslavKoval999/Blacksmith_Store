@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Blacksmith_Store
 {
@@ -13,12 +14,13 @@ namespace Blacksmith_Store
         {
             try
             {
-                System.Xml.Serialization.XmlSerializer writer = new System.Xml.Serialization.XmlSerializer(typeof(T));
-                System.IO.StreamWriter file = new System.IO.StreamWriter(fileName);
-                writer.Serialize(file, inObject);
-                file.Close();
+                XmlSerializer writer = new XmlSerializer(typeof(T));
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(fileName))
+                {
+                    writer.Serialize(file, inObject);
+                }
             }
-            catch (Exception ex) { MessageBox.Show(ex.Message); }
+            catch (Exception ex) { MessageBox.Show("Помилка серіалізації: " + ex.Message); }
         }
 
         public static void DeserializeFromXml<T>(ref T inObject, string inFileName)

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Blacksmith_Store
 {
@@ -15,6 +16,32 @@ namespace Blacksmith_Store
         public FormMain()
         {
             InitializeComponent();
+            msMenu.BringToFront();
+
+            this.Load += FormMain_Load;
+        }
+
+        public void UpdateCartSummary()
+        {
+            decimal totalAmount = CartManager.CartItems.Sum(item => item.TotalPrice);
+            int totalQuantity = CartManager.CartItems.Sum(item => item.Quantity);
+
+            if (lbNumber != null)
+            {
+                lbNumber.Text = totalQuantity.ToString() + " шт";
+            }
+
+            string formattedTotal = totalAmount.ToString("C2", CultureInfo.CurrentCulture);
+
+            if (lbPrice != null)
+            {
+                lbPrice.Text = formattedTotal;
+            }
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            UpdateCartSummary();
         }
 
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
@@ -146,7 +173,5 @@ namespace Blacksmith_Store
             FormAddProduct formAddProduct = new FormAddProduct();
             formAddProduct.Show();
         }
-
-
     }
 }

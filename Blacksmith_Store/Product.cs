@@ -4,11 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Blacksmith_Store
 {
     public class Product
     {
+        [XmlIgnore]
+        public decimal TotalPrice { get; set; }
+        [XmlIgnore]
+        public int Quantity { get; set; }
+
         public int ProductId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
@@ -19,11 +25,8 @@ namespace Blacksmith_Store
         public string BrandName { get; set; }
         public string SubtypeName { get; set; }
 
-
-        // Потрібен для XML-серіалізації
         public Product() { }
 
-        // Потрібен для завантаження з БД
         public Product(string line)
         {
             try
@@ -45,6 +48,5 @@ namespace Blacksmith_Store
                 MessageBox.Show("Помилка при створенні Product: " + ex.Message);
             }
         }
-
     }
 }

@@ -26,6 +26,23 @@ namespace Blacksmith_Store
             LoadEyeImages();
         }
 
+        string GetMd5Hash(string input)
+        {
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] inputBytes = Encoding.UTF8.GetBytes(input);
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                StringBuilder sb = new StringBuilder();
+
+                foreach (byte b in hashBytes)
+                {
+                    sb.Append(b.ToString("x2"));
+                }
+                return sb.ToString();
+            }
+        }
+
         private const string DbFileName = @"D:\Все для навчання\4_Курс\Blacksmith_Store\Blacksmith_Store\bin\Debug\Blacksmith_StoreBD";
 
         private bool isPasswordVisible = false;
@@ -130,6 +147,8 @@ namespace Blacksmith_Store
 
         private bool UserExists(string login, string password)
         {
+            string hashedPassword = GetMd5Hash(password);
+
             string query = "SELECT COUNT(*) FROM users WHERE username = @Login AND password_hash = @Password";
 
             string connectionString = $"Data Source={DbFileName}";
@@ -143,7 +162,7 @@ namespace Blacksmith_Store
                     using (var command = new SqliteCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@Login", login);
-                        command.Parameters.AddWithValue("@Password", password);
+                        command.Parameters.AddWithValue("@Password", hashedPassword);
 
                         long count = (long)command.ExecuteScalar();
 

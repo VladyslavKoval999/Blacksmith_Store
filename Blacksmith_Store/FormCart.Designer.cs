@@ -32,7 +32,6 @@
             this.btnCart = new System.Windows.Forms.Button();
             this.dgvCart = new System.Windows.Forms.DataGridView();
             this.lbCost = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.btnContinueShopping = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
@@ -55,8 +54,8 @@
             this.tsmiNovetly = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTopSellers = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSale = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAddProduct = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReport = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAddProduct = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -86,12 +85,13 @@
             this.dgvCart.BackgroundColor = System.Drawing.Color.Black;
             this.dgvCart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCart.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dgvCart.Location = new System.Drawing.Point(158, 265);
+            this.dgvCart.Location = new System.Drawing.Point(72, 265);
             this.dgvCart.Name = "dgvCart";
             this.dgvCart.RowHeadersWidth = 51;
             this.dgvCart.RowTemplate.Height = 24;
-            this.dgvCart.Size = new System.Drawing.Size(1266, 476);
+            this.dgvCart.Size = new System.Drawing.Size(1440, 476);
             this.dgvCart.TabIndex = 274;
+            this.dgvCart.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCart_CellContentClick);
             // 
             // lbCost
             // 
@@ -105,18 +105,6 @@
             this.lbCost.TabIndex = 285;
             this.lbCost.Text = "0000,00";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.label14.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.label14.Location = new System.Drawing.Point(1380, 761);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 28);
-            this.label14.TabIndex = 284;
-            this.label14.Text = "грн";
-            // 
             // btnContinueShopping
             // 
             this.btnContinueShopping.BackColor = System.Drawing.Color.Black;
@@ -129,6 +117,7 @@
             this.btnContinueShopping.TabIndex = 281;
             this.btnContinueShopping.Text = "Продовжити покупки";
             this.btnContinueShopping.UseVisualStyleBackColor = false;
+            this.btnContinueShopping.Click += new System.EventHandler(this.btnContinueShopping_Click);
             // 
             // label13
             // 
@@ -154,6 +143,7 @@
             this.btnClear.TabIndex = 279;
             this.btnClear.Text = "Очистити";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnPlaceOrder
             // 
@@ -167,6 +157,7 @@
             this.btnPlaceOrder.TabIndex = 278;
             this.btnPlaceOrder.Text = "Оформити замовлення";
             this.btnPlaceOrder.UseVisualStyleBackColor = false;
+            this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
             // 
             // lbPrice
             // 
@@ -204,6 +195,7 @@
             this.btnMinus.TabIndex = 288;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = false;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnAdd
             // 
@@ -217,6 +209,7 @@
             this.btnAdd.TabIndex = 289;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // pbCart
             // 
@@ -373,15 +366,6 @@
             this.tsmiSale.Text = "Знижки";
             this.tsmiSale.Click += new System.EventHandler(this.tsmiSale_Click);
             // 
-            // tsmiAddProduct
-            // 
-            this.tsmiAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.tsmiAddProduct.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
-            this.tsmiAddProduct.Name = "tsmiAddProduct";
-            this.tsmiAddProduct.Size = new System.Drawing.Size(145, 35);
-            this.tsmiAddProduct.Text = "Додати";
-            this.tsmiAddProduct.Click += new System.EventHandler(this.tsmiAddProduct_Click);
-            // 
             // tsmiReport
             // 
             this.tsmiReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
@@ -390,6 +374,15 @@
             this.tsmiReport.Size = new System.Drawing.Size(145, 35);
             this.tsmiReport.Text = "Звіт";
             this.tsmiReport.Click += new System.EventHandler(this.tsmiReport_Click);
+            // 
+            // tsmiAddProduct
+            // 
+            this.tsmiAddProduct.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.tsmiAddProduct.Margin = new System.Windows.Forms.Padding(0, 15, 5, 0);
+            this.tsmiAddProduct.Name = "tsmiAddProduct";
+            this.tsmiAddProduct.Size = new System.Drawing.Size(145, 35);
+            this.tsmiAddProduct.Text = "Додати";
+            this.tsmiAddProduct.Click += new System.EventHandler(this.tsmiAddProduct_Click);
             // 
             // FormCart
             // 
@@ -404,7 +397,6 @@
             this.Controls.Add(this.lbPrice);
             this.Controls.Add(this.lbNumber);
             this.Controls.Add(this.lbCost);
-            this.Controls.Add(this.label14);
             this.Controls.Add(this.btnContinueShopping);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.btnClear);
@@ -419,7 +411,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormCart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCart";
+            this.Text = "Кошик";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCart_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
@@ -446,7 +438,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dgvCart;
         private System.Windows.Forms.Label lbCost;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button btnContinueShopping;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnClear;

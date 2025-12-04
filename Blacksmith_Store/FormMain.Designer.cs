@@ -47,12 +47,12 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.msMenu = new System.Windows.Forms.MenuStrip();
-            this.tsmiCart = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiShoes = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAccessories = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiNovetly = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiTopSellers = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSale = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCart = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReport = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAddProduct = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
@@ -218,9 +218,11 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Location = new System.Drawing.Point(384, 243);
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(372, 254);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1140, 624);
+            this.pictureBox6.Size = new System.Drawing.Size(1152, 580);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             // 
@@ -303,15 +305,6 @@
             this.msMenu.TabIndex = 293;
             this.msMenu.Visible = false;
             // 
-            // tsmiCart
-            // 
-            this.tsmiCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
-            this.tsmiCart.Margin = new System.Windows.Forms.Padding(0, 10, 5, 0);
-            this.tsmiCart.Name = "tsmiCart";
-            this.tsmiCart.Size = new System.Drawing.Size(145, 35);
-            this.tsmiCart.Text = "Кошик";
-            this.tsmiCart.Click += new System.EventHandler(this.tsmiCart_Click);
-            // 
             // tsmiShoes
             // 
             this.tsmiShoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
@@ -357,6 +350,15 @@
             this.tsmiSale.Text = "Знижки";
             this.tsmiSale.Click += new System.EventHandler(this.tsmiSale_Click);
             // 
+            // tsmiCart
+            // 
+            this.tsmiCart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.tsmiCart.Margin = new System.Windows.Forms.Padding(0, 10, 5, 0);
+            this.tsmiCart.Name = "tsmiCart";
+            this.tsmiCart.Size = new System.Drawing.Size(145, 35);
+            this.tsmiCart.Text = "Кошик";
+            this.tsmiCart.Click += new System.EventHandler(this.tsmiCart_Click);
+            // 
             // tsmiReport
             // 
             this.tsmiReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
@@ -401,7 +403,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Main";
+            this.Text = "Головна";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

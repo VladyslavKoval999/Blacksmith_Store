@@ -64,9 +64,6 @@
             this.lbNumber = new System.Windows.Forms.Label();
             this.pbCart = new System.Windows.Forms.PictureBox();
             this.pbSearch = new System.Windows.Forms.PictureBox();
-            this.pbSale = new System.Windows.Forms.PictureBox();
-            this.pbManAccessories = new System.Windows.Forms.PictureBox();
-            this.pbManShoes = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pbMenu = new System.Windows.Forms.PictureBox();
@@ -84,11 +81,12 @@
             this.tsmiCart = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiReport = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAddProduct = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnResult = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.panelSeason = new System.Windows.Forms.Panel();
+            this.panelAvailability = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSale)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbManAccessories)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbManShoes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).BeginInit();
@@ -97,6 +95,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.msMenu.SuspendLayout();
+            this.panelSeason.SuspendLayout();
+            this.panelAvailability.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnWoman
@@ -159,7 +159,7 @@
             this.rbAllScore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbAllScore.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbAllScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAllScore.Location = new System.Drawing.Point(1463, 753);
+            this.rbAllScore.Location = new System.Drawing.Point(276, 5);
             this.rbAllScore.Name = "rbAllScore";
             this.rbAllScore.Size = new System.Drawing.Size(58, 25);
             this.rbAllScore.TabIndex = 250;
@@ -173,7 +173,7 @@
             this.rbComingSoon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbComingSoon.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbComingSoon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbComingSoon.Location = new System.Drawing.Point(1328, 753);
+            this.rbComingSoon.Location = new System.Drawing.Point(141, 5);
             this.rbComingSoon.Name = "rbComingSoon";
             this.rbComingSoon.Size = new System.Drawing.Size(116, 25);
             this.rbComingSoon.TabIndex = 249;
@@ -187,7 +187,7 @@
             this.rbInScore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbInScore.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbInScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbInScore.Location = new System.Drawing.Point(1193, 753);
+            this.rbInScore.Location = new System.Drawing.Point(6, 5);
             this.rbInScore.Name = "rbInScore";
             this.rbInScore.Size = new System.Drawing.Size(122, 25);
             this.rbInScore.TabIndex = 248;
@@ -365,7 +365,7 @@
             this.rbAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbAll.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAll.Location = new System.Drawing.Point(1485, 351);
+            this.rbAll.Location = new System.Drawing.Point(297, 10);
             this.rbAll.Name = "rbAll";
             this.rbAll.Size = new System.Drawing.Size(58, 25);
             this.rbAll.TabIndex = 233;
@@ -379,7 +379,7 @@
             this.rbSpring.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbSpring.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbSpring.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbSpring.Location = new System.Drawing.Point(1407, 351);
+            this.rbSpring.Location = new System.Drawing.Point(219, 10);
             this.rbSpring.Name = "rbSpring";
             this.rbSpring.Size = new System.Drawing.Size(77, 25);
             this.rbSpring.TabIndex = 232;
@@ -393,7 +393,7 @@
             this.rbWinter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbWinter.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbWinter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbWinter.Location = new System.Drawing.Point(1335, 351);
+            this.rbWinter.Location = new System.Drawing.Point(147, 10);
             this.rbWinter.Name = "rbWinter";
             this.rbWinter.Size = new System.Drawing.Size(70, 25);
             this.rbWinter.TabIndex = 231;
@@ -407,7 +407,7 @@
             this.rbAutumn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbAutumn.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbAutumn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbAutumn.Location = new System.Drawing.Point(1259, 351);
+            this.rbAutumn.Location = new System.Drawing.Point(71, 10);
             this.rbAutumn.Name = "rbAutumn";
             this.rbAutumn.Size = new System.Drawing.Size(74, 25);
             this.rbAutumn.TabIndex = 230;
@@ -421,7 +421,7 @@
             this.rbSummer.Cursor = System.Windows.Forms.Cursors.Hand;
             this.rbSummer.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbSummer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
-            this.rbSummer.Location = new System.Drawing.Point(1193, 351);
+            this.rbSummer.Location = new System.Drawing.Point(5, 10);
             this.rbSummer.Name = "rbSummer";
             this.rbSummer.Size = new System.Drawing.Size(64, 25);
             this.rbSummer.TabIndex = 229;
@@ -470,11 +470,13 @@
             // 
             this.lvMan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lvMan.HideSelection = false;
-            this.lvMan.Location = new System.Drawing.Point(400, 261);
+            this.lvMan.Location = new System.Drawing.Point(34, 261);
             this.lvMan.Name = "lvMan";
-            this.lvMan.Size = new System.Drawing.Size(734, 599);
+            this.lvMan.Size = new System.Drawing.Size(1100, 599);
             this.lvMan.TabIndex = 222;
             this.lvMan.UseCompatibleStateImageBehavior = false;
+            this.lvMan.SelectedIndexChanged += new System.EventHandler(this.lvMan_SelectedIndexChanged);
+            this.lvMan.DoubleClick += new System.EventHandler(this.lvMan_DoubleClick);
             // 
             // tbSearch
             // 
@@ -533,34 +535,7 @@
             this.pbSearch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbSearch.TabIndex = 252;
             this.pbSearch.TabStop = false;
-            // 
-            // pbSale
-            // 
-            this.pbSale.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbSale.Location = new System.Drawing.Point(36, 685);
-            this.pbSale.Name = "pbSale";
-            this.pbSale.Size = new System.Drawing.Size(339, 175);
-            this.pbSale.TabIndex = 225;
-            this.pbSale.TabStop = false;
-            this.pbSale.Click += new System.EventHandler(this.pbSale_Click);
-            // 
-            // pbManAccessories
-            // 
-            this.pbManAccessories.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbManAccessories.Location = new System.Drawing.Point(36, 473);
-            this.pbManAccessories.Name = "pbManAccessories";
-            this.pbManAccessories.Size = new System.Drawing.Size(339, 175);
-            this.pbManAccessories.TabIndex = 224;
-            this.pbManAccessories.TabStop = false;
-            // 
-            // pbManShoes
-            // 
-            this.pbManShoes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbManShoes.Location = new System.Drawing.Point(36, 261);
-            this.pbManShoes.Name = "pbManShoes";
-            this.pbManShoes.Size = new System.Drawing.Size(339, 175);
-            this.pbManShoes.TabIndex = 223;
-            this.pbManShoes.TabStop = false;
+            this.pbSearch.Click += new System.EventHandler(this.pbSearch_Click);
             // 
             // pictureBox7
             // 
@@ -742,21 +717,73 @@
             this.tsmiAddProduct.Text = "Додати";
             this.tsmiAddProduct.Click += new System.EventHandler(this.tsmiAddProduct_Click);
             // 
+            // btnResult
+            // 
+            this.btnResult.BackColor = System.Drawing.Color.Black;
+            this.btnResult.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnResult.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnResult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.btnResult.Location = new System.Drawing.Point(1407, 809);
+            this.btnResult.Name = "btnResult";
+            this.btnResult.Size = new System.Drawing.Size(150, 51);
+            this.btnResult.TabIndex = 308;
+            this.btnResult.Text = "Знайти";
+            this.btnResult.UseVisualStyleBackColor = false;
+            this.btnResult.Click += new System.EventHandler(this.btnResult_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.Black;
+            this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClear.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(45)))));
+            this.btnClear.Location = new System.Drawing.Point(1193, 809);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(150, 51);
+            this.btnClear.TabIndex = 309;
+            this.btnClear.Text = "Скинути";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // panelSeason
+            // 
+            this.panelSeason.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.panelSeason.Controls.Add(this.rbAll);
+            this.panelSeason.Controls.Add(this.rbSpring);
+            this.panelSeason.Controls.Add(this.rbWinter);
+            this.panelSeason.Controls.Add(this.rbAutumn);
+            this.panelSeason.Controls.Add(this.rbSummer);
+            this.panelSeason.Location = new System.Drawing.Point(1188, 341);
+            this.panelSeason.Name = "panelSeason";
+            this.panelSeason.Size = new System.Drawing.Size(368, 44);
+            this.panelSeason.TabIndex = 310;
+            // 
+            // panelAvailability
+            // 
+            this.panelAvailability.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(215)))));
+            this.panelAvailability.Controls.Add(this.rbAllScore);
+            this.panelAvailability.Controls.Add(this.rbComingSoon);
+            this.panelAvailability.Controls.Add(this.rbInScore);
+            this.panelAvailability.Location = new System.Drawing.Point(1187, 748);
+            this.panelAvailability.Name = "panelAvailability";
+            this.panelAvailability.Size = new System.Drawing.Size(341, 40);
+            this.panelAvailability.TabIndex = 311;
+            // 
             // FormMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1582, 903);
-            this.Controls.Add(this.msMenu);
+            this.Controls.Add(this.panelAvailability);
+            this.Controls.Add(this.panelSeason);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnResult);
             this.Controls.Add(this.pbCart);
             this.Controls.Add(this.lbPrice);
             this.Controls.Add(this.lbNumber);
             this.Controls.Add(this.pbSearch);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.rbAllScore);
-            this.Controls.Add(this.rbComingSoon);
-            this.Controls.Add(this.rbInScore);
             this.Controls.Add(this.tbPriceTo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tbPriceFrom);
@@ -771,17 +798,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbBrand);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rbAll);
-            this.Controls.Add(this.rbSpring);
-            this.Controls.Add(this.rbWinter);
-            this.Controls.Add(this.rbAutumn);
-            this.Controls.Add(this.rbSummer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbTypeMan);
-            this.Controls.Add(this.pbSale);
-            this.Controls.Add(this.pbManAccessories);
-            this.Controls.Add(this.pbManShoes);
+            this.Controls.Add(this.msMenu);
             this.Controls.Add(this.lvMan);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.pictureBox7);
@@ -796,13 +816,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormMan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Man";
+            this.Text = "Товари для чоловіків";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMan_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pbCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSale)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbManAccessories)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbManShoes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu)).EndInit();
@@ -812,6 +829,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.msMenu.ResumeLayout(false);
             this.msMenu.PerformLayout();
+            this.panelSeason.ResumeLayout(false);
+            this.panelSeason.PerformLayout();
+            this.panelAvailability.ResumeLayout(false);
+            this.panelAvailability.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -852,9 +873,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbTypeMan;
-        private System.Windows.Forms.PictureBox pbSale;
-        private System.Windows.Forms.PictureBox pbManAccessories;
-        private System.Windows.Forms.PictureBox pbManShoes;
         private System.Windows.Forms.ListView lvMan;
         private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -873,5 +891,9 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiCart;
         private System.Windows.Forms.ToolStripMenuItem tsmiReport;
         private System.Windows.Forms.ToolStripMenuItem tsmiAddProduct;
+        private System.Windows.Forms.Button btnResult;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Panel panelSeason;
+        private System.Windows.Forms.Panel panelAvailability;
     }
 }
