@@ -24,6 +24,7 @@ namespace Blacksmith_Store
 
         private void btnContinueShopping_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FormMain formMain = new FormMain();
             formMain.Show();
             this.Hide();
